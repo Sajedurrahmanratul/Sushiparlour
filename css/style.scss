@@ -1,0 +1,427 @@
+/*====================================================
+Variable Css
+===================================================*/
+$primary-color: #9baf6d;
+$dark-color: #212121; 
+$white-color: #e8e8e8; 
+
+
+
+/*====================================================
+Common Css
+===================================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rancho', cursive;
+    background: $dark-color;
+    height: fit-content;
+}
+
+.root{
+    overflow-x: hidden;
+}
+
+/*====================================================
+Fonts Css
+===================================================*/
+
+h1{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Rancho', cursive;
+    font-size: 45px;
+    
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h4{
+    font-family: 'Rancho', cursive;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: normal;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+
+    &:hover{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+
+/*====================================================
+Nav and Header Css
+===================================================*/
+
+nav{
+    background: $dark-color;
+    .navbar-brand{
+        height: 91px;
+        width: 81px;
+    }
+    .toggler{
+        color: $primary-color;
+    }
+
+    ul{
+        li{
+            a{
+                color: $primary-color;
+                transition: .3s ease all;
+                border-bottom: 2px solid transparent;
+               &:hover{
+                   color: $primary-color;
+               }
+
+               &:focus{
+                   border-bottom: 2px solid white;
+               }
+            }
+        }
+    }
+}
+
+header{
+    background: url(/img/hero-img-min.jpg);
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 0 250px 0;
+    a{
+        color: $primary-color;
+        background: rgba(70, 94, 16, 0.7);
+        padding: 12px 30px;
+    }
+
+    h1{
+        color: $primary-color;
+        span{
+            font-size: 50px;
+            margin-bottom: 0;
+            font-weight: 400;
+        }
+    }
+}
+
+
+/*====================================================
+What We Cook Css
+===================================================*/
+
+.what_we_cook{
+    background: $dark-color;
+    width: 100%;
+    height: fit-content;
+
+    .contents{
+        padding: 150px 0 10px 0;
+        .texts{
+           
+            h4{
+                color: $primary-color;
+                font-size: 40px;
+            }
+
+            p{
+                color: $white-color;
+            }
+        }
+    }
+}
+
+/*====================================================
+Categorys Css
+===================================================*/
+
+.category{
+    background: rgba(155, 175, 109, 0.3) ;
+    padding: 90px 0 50px 0;
+    position: relative;
+    h4{
+        color: $primary-color;
+    }
+
+    p{
+        color: $white-color;
+    }
+
+    .bg{
+        position: absolute;
+        top: -600px;
+        right: 0;
+    }
+}
+
+/*====================================================
+Tradition Css
+===================================================*/
+
+.tradition{
+    position: relative;
+    padding: 50px 0;
+    .img{
+        position: absolute;
+        top: 0;
+    }
+    margin-top: 140px;
+    .heading{
+        color: $white-color;
+        background: rgba(155, 175, 109, 0.3);
+        padding: 50px 0 45px 0;
+
+        .sub{
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+
+    .categoryes{
+       
+        .head{
+            color: $primary-color;
+        }
+
+        .text{
+            height: 100%;
+        }
+    }
+}
+
+/*====================================================
+Simple  Css
+===================================================*/
+.simple{
+    background: rgba(155, 175, 109, 0.3);
+    width: 100%;
+    height: fit-content;
+    padding: 60px 0;
+    position: relative;
+
+    .img{
+        position: absolute;
+        top: -250px;
+        right: 0;
+    }
+    h4{
+        color: $primary-color;
+    }
+
+    p{
+        color: $white-color;
+    }
+}
+
+/*====================================================
+Menu Css
+===================================================*/
+
+.menu{
+    background: url(/img/sec5-bg-min.jpg);
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 900px 0;
+
+    .contents{
+        background: rgba(98, 129, 26, 0.7);
+    width: 100%;
+    height: fit-content;
+    padding: 10px 0;
+        .head{
+            h2{
+                color: $white-color;
+            }
+    
+            .text{
+                font-family: 'Montserrat', sans-serif; 
+            }
+        }
+
+        .items{
+            .texts{
+                span{
+                    font-family: 'Rancho', cursive;
+                }
+            }
+        }
+    }
+}
+
+
+/*====================================================
+book here Css
+===================================================*/
+
+.book{
+    padding: 40px;
+    .form-control{
+        background: transparent;
+        border: 2px solid $white-color;
+        width: 100%;
+        font-family: 'Montserrat', sans-serif; 
+        color: $white-color;
+    }
+    .btn-secondary{
+        background: transparent;
+        border: 2px solid $white-color;
+        width: 100%;
+        font-family: 'Montserrat', sans-serif; 
+    }
+    span{
+        font-family: 'Montserrat', sans-serif; 
+        font-weight: bold;
+        
+    }
+
+    .button{
+        a{
+            background: transparent;
+        border: 2px solid $white-color;
+        padding: 7px 50px;
+        }
+    }
+
+    
+}
+
+.img{
+    .image{
+        width: 100%;
+       
+    }
+}
+
+/*====================================================
+Discover Css
+===================================================*/
+
+.discover{
+    background: rgba(155, 175, 109, 0.3);
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    padding: 50px 0;
+
+    .bg{
+        position: absolute;
+        top: -400px;
+        right: 0;
+    }
+
+    .head{
+
+        h2{
+            color: $primary-color;
+        }
+        .head-font{
+            font-family: 'Montserrat', sans-serif; 
+            color: $white-color;
+        }
+    }
+    
+    .card{
+        border: none;
+        width: fit-content;
+        .card-body{
+            .contents{
+                .sub-head{
+                    font-weight: 600;
+                    font-size: 16px;
+                }
+
+                .head{
+                    font-family: 'Montserrat', sans-serif; 
+                    font-size: 22px;
+                    font-weight: normal ;
+                }
+
+                a{
+                    color: $dark-color;
+                    border-bottom: 8px solid $primary-color;
+                    transition: .3s ease all;
+                    &:hover{
+                        border-bottom: 8px solid transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*====================================================
+Socials Css
+===================================================*/
+
+.socials{
+    padding: 90px 0;
+    .paragraph{
+        p{
+            color: $primary-color;
+        }
+
+        h4{
+            color: $primary-color;
+        }
+    }
+}
+
+/*====================================================
+Footer Css
+===================================================*/
+
+footer{
+    background: rgba(155, 175, 109, 0.3);
+    width: 100%;
+    height: fit-content;
+    padding: 50px 0 0 0;
+    position: relative;
+
+    .img{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    h4{
+        color: $white-color;
+        font-family: 'Montserrat', sans-serif; 
+        font-weight: bold;
+        font-size: 21px;
+    }
+
+    p{
+        font-size: 16px;
+        color: $white-color;
+    }
+}

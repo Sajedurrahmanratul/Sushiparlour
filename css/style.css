@@ -1,0 +1,412 @@
+/*====================================================
+Variable Css
+===================================================*/
+/*====================================================
+Common Css
+===================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rancho', cursive;
+  background: #212121;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.root {
+  overflow-x: hidden;
+}
+
+/*====================================================
+Fonts Css
+===================================================*/
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Rancho', cursive;
+  font-size: 45px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: 'Rancho', cursive;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/*====================================================
+Nav and Header Css
+===================================================*/
+nav {
+  background: #212121;
+}
+
+nav .navbar-brand {
+  height: 91px;
+  width: 81px;
+}
+
+nav .toggler {
+  color: #9baf6d;
+}
+
+nav ul li a {
+  color: #9baf6d;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+  color: #9baf6d;
+}
+
+nav ul li a:focus {
+  border-bottom: 2px solid white;
+}
+
+header {
+  background: url(/img/hero-img-min.jpg);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180px 0 250px 0;
+}
+
+header a {
+  color: #9baf6d;
+  background: rgba(70, 94, 16, 0.7);
+  padding: 12px 30px;
+}
+
+header h1 {
+  color: #9baf6d;
+}
+
+header h1 span {
+  font-size: 50px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+/*====================================================
+What We Cook Css
+===================================================*/
+.what_we_cook {
+  background: #212121;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.what_we_cook .contents {
+  padding: 150px 0 10px 0;
+}
+
+.what_we_cook .contents .texts h4 {
+  color: #9baf6d;
+  font-size: 40px;
+}
+
+.what_we_cook .contents .texts p {
+  color: #e8e8e8;
+}
+
+/*====================================================
+Categorys Css
+===================================================*/
+.category {
+  background: rgba(155, 175, 109, 0.3);
+  padding: 90px 0 50px 0;
+  position: relative;
+}
+
+.category h4 {
+  color: #9baf6d;
+}
+
+.category p {
+  color: #e8e8e8;
+}
+
+.category .bg {
+  position: absolute;
+  top: -600px;
+  right: 0;
+}
+
+/*====================================================
+Tradition Css
+===================================================*/
+.tradition {
+  position: relative;
+  padding: 50px 0;
+  margin-top: 140px;
+}
+
+.tradition .img {
+  position: absolute;
+  top: 0;
+}
+
+.tradition .heading {
+  color: #e8e8e8;
+  background: rgba(155, 175, 109, 0.3);
+  padding: 50px 0 45px 0;
+}
+
+.tradition .heading .sub {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.tradition .categoryes .head {
+  color: #9baf6d;
+}
+
+.tradition .categoryes .text {
+  height: 100%;
+}
+
+/*====================================================
+Simple  Css
+===================================================*/
+.simple {
+  background: rgba(155, 175, 109, 0.3);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 60px 0;
+  position: relative;
+}
+
+.simple .img {
+  position: absolute;
+  top: -250px;
+  right: 0;
+}
+
+.simple h4 {
+  color: #9baf6d;
+}
+
+.simple p {
+  color: #e8e8e8;
+}
+
+/*====================================================
+Menu Css
+===================================================*/
+.menu {
+  background: url(/img/sec5-bg-min.jpg);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 900px 0;
+}
+
+.menu .contents {
+  background: rgba(98, 129, 26, 0.7);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px 0;
+}
+
+.menu .contents .head h2 {
+  color: #e8e8e8;
+}
+
+.menu .contents .head .text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu .contents .items .texts span {
+  font-family: 'Rancho', cursive;
+}
+
+/*====================================================
+book here Css
+===================================================*/
+.book {
+  padding: 40px;
+}
+
+.book .form-control {
+  background: transparent;
+  border: 2px solid #e8e8e8;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #e8e8e8;
+}
+
+.book .btn-secondary {
+  background: transparent;
+  border: 2px solid #e8e8e8;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.book span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.book .button a {
+  background: transparent;
+  border: 2px solid #e8e8e8;
+  padding: 7px 50px;
+}
+
+.img .image {
+  width: 100%;
+}
+
+/*====================================================
+Discover Css
+===================================================*/
+.discover {
+  background: rgba(155, 175, 109, 0.3);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  padding: 50px 0;
+}
+
+.discover .bg {
+  position: absolute;
+  top: -400px;
+  right: 0;
+}
+
+.discover .head h2 {
+  color: #9baf6d;
+}
+
+.discover .head .head-font {
+  font-family: 'Montserrat', sans-serif;
+  color: #e8e8e8;
+}
+
+.discover .card {
+  border: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.discover .card .card-body .contents .sub-head {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.discover .card .card-body .contents .head {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.discover .card .card-body .contents a {
+  color: #212121;
+  border-bottom: 8px solid #9baf6d;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.discover .card .card-body .contents a:hover {
+  border-bottom: 8px solid transparent;
+}
+
+/*====================================================
+Socials Css
+===================================================*/
+.socials {
+  padding: 90px 0;
+}
+
+.socials .paragraph p {
+  color: #9baf6d;
+}
+
+.socials .paragraph h4 {
+  color: #9baf6d;
+}
+
+/*====================================================
+Footer Css
+===================================================*/
+footer {
+  background: rgba(155, 175, 109, 0.3);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 50px 0 0 0;
+  position: relative;
+}
+
+footer .img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+footer h4 {
+  color: #e8e8e8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+footer p {
+  font-size: 16px;
+  color: #e8e8e8;
+}
+/*# sourceMappingURL=style.css.map */
